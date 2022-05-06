@@ -1,14 +1,14 @@
 # payconiq
 Payconiq Assignment
 
-To Build Docker Image Use Below Command: 
+To build docker image use below command:
 docker build -f Dockerfile -t payconiq .
 
-To Run Docker Container Use Below Command: 
+To run docker container use below command:
 docker run -p 9999:9999 payconiq
 
-To Access Swagger UI for testing API endpoints use below url: 
+Implemented OpenAPI for API documentation. To access Swagger UI for testing API endpoints use below url: 
 http://localhost:9999/payconiq/swagger-ui.html
 
-To Access H2 DB for checking records use below url: 
+Used H2 in-memory DB for CRUD operation. To access H2 DB for checking records use below url: 
 http://localhost:9999/payconiq/h2-console
