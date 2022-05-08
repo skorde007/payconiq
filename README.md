@@ -1,6 +1,8 @@
 # payconiq
 Payconiq Assignment
 
+This application is created by using Java 11 and Springboot. This is purely a java based application.
+
 To build docker image use below command:
 docker build -f Dockerfile -t payconiq .
 
